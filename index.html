@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Components</title>
+</head>
+<body>
+    <template id="helloWorld">
+        <style>
+            .text {
+                font-size: 20px;
+                color: red;
+            }
+        </style>
+        <h1 class="text">Hello World!</h1>
+    </template>
+    <hello-world></hello-world>
+    <script src="./components/hello-world/index.js" type="module"></script>   
+</body>
+</html>
